@@ -1,0 +1,108 @@
+/* Local Fixes */
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.overview-your-home-at-your-command {
+		padding-left: 105px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.overview-your-home-at-your-command {
+		padding-left: 110px;
+	}
+}
+
+/* Fix height of TV and HomePod tiles */
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.section-flex-tiles .atv-4k .tile, .section-flex-tiles .homepod-mini .tile {
+		height: 550px;
+	}
+}
+
+@media only screen and (min-width: 1069px) {
+	.section-flex-tiles .atv-4k .tile, .section-flex-tiles .homepod-mini .tile {
+		height: 800px;
+	}
+}
+
+/* Geo Alt Big Screen Caption */
+.section-big-screen .section-geo-alt-caption .geo-alt-caption {
+	max-width: 1098px;
+	margin: -0.7em auto 0;
+	padding: 0 95px;
+}
+
+.section-big-screen .section-geo-alt-caption {
+	position: relative;
+	text-align: left;
+	margin-top: 0px;
+	margin-bottom: 27px;
+	color: #6e6e73;
+	display: block;
+	width: 100%;
+}
+
+@media only screen and (max-width: 1068px) {
+	.section-big-screen .section-geo-alt-caption .geo-alt-caption {
+		max-width: 615px;
+		margin-top: 0;
+		padding-left: 0;
+		padding-right: 0;
+		padding-bottom: 1em;
+	}
+}
+
+.section-big-screen .section-geo-alt-caption a {
+	font-weight: 500;
+	color: #6e6e73;
+	text-decoration: none;
+}
+
+@media only screen and (max-width: 734px) {
+	.section-big-screen .section-geo-alt-caption {
+		display: none;
+	}
+}
+
+/* Half width home tile */
+@media only screen and (min-width: 1069px) {
+	.overview-your-home-at-your-command {
+		padding-left: 150px;
+	}
+	.section-big-screen .section-header-headline {
+		margin-top: 63px;
+	}
+	.section-flex-tiles .grid .grid-item.homepod-mini.half-width .tile-content .copy-wrapper {
+		padding-top: 25px;
+	}
+}
+
+@media only screen and (min-width: 735px) and (max-width: 1068px) {
+	.overview-your-home-at-your-command {
+		padding-left: 113px;
+	}
+	.section-big-screen .section-services .service-tile-ctas {
+		display: flex;
+	}
+	.section-flex-tiles .grid .grid-item.homepod-mini.half-width .tile-content .copy-wrapper {
+		padding-top: 13px;
+	}
+}
+
+@media only screen and (max-width: 734px) {
+	.overview-your-home-at-your-command {
+		padding-left: 8px;
+	}
+
+	.section-big-screen .section-services .service-tile-button {
+		margin-bottom: 14px;
+	}
+
+	.section-big-screen .section-services .service-tile-image {
+		margin-top: 0;
+	}
+}
+@media only screen and (max-width: 325px) {
+	.overview-your-home-at-your-command {
+		padding-left: 2px;
+	}
+}
